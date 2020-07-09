@@ -1,1 +1,2 @@
-GP2
+Python aws script
+
