@@ -7,10 +7,10 @@ ec2ids = {"Unifi":"i-0f66434047aa2c120", "Zabbix":"i-068d8eef71fdbd1a0"}
 #response = client.start_instances(InstanceIds=[ec2ids[0]])
 
 for i in ec2ids.values():
-    response = client.reboot_instances(
+    response = client.start_instances(
     InstanceIds=[i]
 )
-    print("Restarting EC2 Instances: ", i)
+    print("Starting EC2 Instances: ", i)
 
 
 
