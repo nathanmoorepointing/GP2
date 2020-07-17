@@ -2,7 +2,9 @@ import boto3
 
 client = boto3.client('ec2')
 
-ec2ids = {"Unifi":"i-0f66434047aa2c120", "Zabbix":"i-068d8eef71fdbd1a0"}
+#ec2ids = {"Unifi":"i-0f66434047aa2c120", "Zabbix":"i-068d8eef71fdbd1a0"}
+
+ec2ids = {"Unifi":"i-0f66434047aa2c120"}
 
 #response = client.start_instances(InstanceIds=[ec2ids[0]])
 
